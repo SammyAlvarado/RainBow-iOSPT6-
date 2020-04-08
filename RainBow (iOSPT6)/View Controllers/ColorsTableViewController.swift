@@ -14,7 +14,11 @@ class ColorsTableViewController: UITableViewController {
     var colors: [Color] = [
         Color(colorName: "Red", color: .red),
         Color(colorName: "Blue", color: .blue),
-        Color(colorName: "Yellow", color: .yellow)
+        Color(colorName: "Yellow", color: .yellow),
+        Color(colorName: "Green", color: .green),
+        Color(colorName: "Blue", color: .blue),
+        Color(colorName: "Indigo", color: .systemIndigo),
+        Color(colorName: "Purple", color: .purple)
     ]
 
     // MARK: - Table view data source
